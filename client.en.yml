@@ -1067,8 +1067,8 @@ en:
           "2_4": 'You will receive notifications because you posted a reply to this topic.'
           "2_2": 'You will receive notifications because you are tracking this topic.'
           "2": 'You will receive notifications because you <a href="/users/{{username}}/preferences">read this topic</a>.'
-          "1_2": 'You will be notified if someone mentions your @name or replies to you.'
-          "1": 'You will be notified if someone mentions your @name or replies to you.'
+          "1_2": 'Bạn sẽ được thông báo nếu ai đó nhắc đến bạn hoặc trả lời cho bạn bằng @tên_của_bạn.'
+          "1": 'Bạn sẽ được thông báo nếu ai đó nhắc đến bạn hoặc trả lời cho bạn bằng @tên_của_bạn.'
           "0_7": 'You are ignoring all notifications in this category.'
           "0_2": 'You are ignoring all notifications on this topic.'
           "0": 'You are ignoring all notifications on this topic.'
@@ -1081,15 +1081,16 @@ en:
         tracking_pm:
           title: "Tracking"
           description: "A count of new replies will be shown for this message. You will be notified if someone mentions your @name or replies to you."
+          description: "A count of new replies will be shown for this message. Bạn sẽ được thông báo nếu ai đó nhắc đến bạn hoặc trả lời cho bạn bằng @tên_của_bạn."
         tracking:
           title: "Tracking"
-          description: "A count of new replies will be shown for this topic. You will be notified if someone mentions your @name or replies to you. "
+          description: "A count of new replies will be shown for this topic. Bạn sẽ được thông báo nếu ai đó nhắc đến bạn hoặc trả lời cho bạn bằng @tên_của_bạn. "
         regular:
           title: "Normal"
-          description: "You will be notified if someone mentions your @name or replies to you."
+          description: "Bạn sẽ được thông báo nếu ai đó nhắc đến bạn hoặc trả lời cho bạn bằng @tên_của_bạn."
         regular_pm:
           title: "Normal"
-          description: "You will be notified if someone mentions your @name or replies to you."
+          description: "Bạn sẽ được thông báo nếu ai đó nhắc đến bạn hoặc trả lời cho bạn bằng @tên_của_bạn"
         muted_pm:
           title: "Muted"
           description: "You will never be notified of anything about this message."
@@ -1519,7 +1520,7 @@ en:
           description: "You will automatically track all new topics in these categories. A count of new replies will appear for these topics."
         regular:
           title: "Bình thường"
-          description: "You will be notified if someone mentions your @name or replies to you."
+          description: "Bạn sẽ được thông báo nếu ai đó nhắc đến bạn hoặc trả lời cho bạn bằng @tên_của_bạn."
         muted:
           title: "Im lặng"
           description: "You will not be notified of anything about new topics in these categories, and they will not appear on your unread tab."
