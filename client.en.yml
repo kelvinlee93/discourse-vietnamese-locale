@@ -809,7 +809,7 @@ en:
       title: "hoặc bấm Ctrl+Enter"
 
       users_placeholder: "Add a user"
-      title_placeholder: "What is this discussion about in one brief sentence?"
+      title_placeholder: "Vui lòng điền tiêu đề ngắn gọn cho chủ đề này..."
       edit_reason_placeholder: "why are you editing?"
       show_edit_reason: "(lý do bạn chỉnh sửa?)"
       reply_placeholder: "Type here. Use Markdown, BBCode, or HTML to format. Drag or paste an image to upload it."
@@ -1459,7 +1459,7 @@ en:
       can: 'can&hellip; '
       none: '(no category)'
       all: 'All categories'
-      choose: 'Select a category&hellip;'
+      choose: 'Chọn chủ đề của bạn...'
       edit: 'edit'
       edit_long: "Edit"
       view: 'View Topics in Category'
