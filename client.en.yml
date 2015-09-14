@@ -82,34 +82,34 @@ en:
       medium:
         x_minutes:
           one: "1 min"
-          other: "%{count} mins"
+          other: "%{count} phút"
         x_hours:
           one: "1 hour"
-          other: "%{count} hours"
+          other: "%{count} giờ"
         x_days:
           one: "1 day"
-          other: "%{count} days"
+          other: "%{count} ngày"
         date_year: "MMM D, 'YY"
       medium_with_ago:
         x_minutes:
-          one: "1 min ago"
-          other: "%{count} mins ago"
+          one: "1 phút trước"
+          other: "%{count} phút trước"
         x_hours:
-          one: "1 hour ago"
-          other: "%{count} hours ago"
+          one: "1 giờ trước"
+          other: "%{count} giờ trước"
         x_days:
-          one: "1 day ago"
-          other: "%{count} days ago"
+          one: "1 ngày trước"
+          other: "%{count} ngày trước"
       later:
         x_days:
-          one: "1 day later"
-          other: "%{count} days later"
+          one: "1 ngày sau"
+          other: "%{count} ngày sau"
         x_months:
-          one: "1 month later"
-          other: "%{count} months later"
+          one: "1 tháng sau"
+          other: "%{count} tháng sau"
         x_years:
-          one: "1 year later"
-          other: "%{count} years later"
+          one: "1 năm sau"
+          other: "%{count} năm sau"
     share:
       topic: 'share a link to this topic'
       post: 'post #%{postNumber}'
@@ -148,11 +148,11 @@ en:
     not_implemented: "That feature hasn't been implemented yet, sorry!"
     no_value: "No"
     yes_value: "Yes"
-    generic_error: "Sorry, an error has occurred."
-    generic_error_with_reason: "An error occurred: %{error}"
-    sign_up: "Sign Up"
-    log_in: "Log In"
-    age: "Age"
+    generic_error: "Xin lỗi, đã xảy ra lỗi."
+    generic_error_with_reason: "Lỗi xảy ra: %{error}"
+    sign_up: "Đăng ký"
+    log_in: "Đăng nhập"
+    age: "Tuổi"
     last_post: "Last Post"
     joined: "Joined"
     admin_title: "Admin"
@@ -229,19 +229,19 @@ en:
       one: "{{count}} unread topic."
       other: "{{count}} unread topics."
     topic_count_new:
-      one: "{{count}} new topic."
-      other: "{{count}} new topics."
+      one: "{{count}} chủ đề mới."
+      other: "{{count}} chủ đề mới."
     click_to_show: "Click to show."
-    preview: "preview"
-    cancel: "cancel"
+    preview: "xem trước"
+    cancel: "hủy"
 
-    save: "Save Changes"
-    saving: "Saving..."
-    saved: "Saved!"
+    save: "Lưu thay đổi"
+    saving: "Đang lưu..."
+    saved: "Đã lưu!"
 
-    upload: "Upload"
-    uploading: "Uploading..."
-    uploaded: "Uploaded!"
+    upload: "Tải lên"
+    uploading: "Đang tải lên..."
+    uploaded: "Đã tải lên!"
 
     enable: "Enable"
     disable: "Disable"
