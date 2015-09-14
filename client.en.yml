@@ -1459,7 +1459,7 @@ en:
       can: 'can&hellip; '
       none: '(no category)'
       all: 'All categories'
-      choose: 'Select a category&hellip;'
+      choose: 'Chọn chủ đề của bạn...'
       edit: 'edit'
       edit_long: "Edit"
       view: 'View Topics in Category'
