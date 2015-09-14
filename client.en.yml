@@ -560,8 +560,8 @@ en:
       email_private_messages: "Send me an email when someone messages me"
       email_always: "Send me email notifications even when I am active on the site"
 
-      other_settings: "Other"
-      categories_settings: "Categories"
+      other_settings: "Khác"
+      categories_settings: "Danh mục"
 
       new_topic_duration:
         label: "Consider topics new when"
@@ -1031,18 +1031,18 @@ en:
       # keys ending with _MF use message format, see /spec/components/js_local_helper_spec.rb for samples
       read_more_MF: "There { UNREAD, plural, =0 {} one { is <a href='/unread'>1 unread</a> } other { are <a href='/unread'># unread</a> } } { NEW, plural, =0 {} one { {BOTH, select, true{and } false {is } other{}} <a href='/new'>1 new</a> topic} other { {BOTH, select, true{and } false {are } other{}} <a href='/new'># new</a> topics} } remaining, or {CATEGORY, select, true {browse other topics in {catLink}} false {{latestLink}} other {}}"
 
-      browse_all_categories: Browse all categories
+      browse_all_categories: Duyệt tất cả các danh mục
 
-      view_latest_topics: view latest topics
-      suggest_create_topic: Why not create a topic?
+      view_latest_topics: xem chủ đề mới nhất
+      suggest_create_topic: Tạo một chủ đề?
       jump_reply_up: jump to earlier reply
       jump_reply_down: jump to later reply
-      deleted: "The topic has been deleted"
+      deleted: "Chủ đề đã bị xóa"
 
       auto_close_notice: "This topic will automatically close %{timeLeft}."
       auto_close_notice_based_on_last_post: "This topic will close %{duration} after the last reply."
       auto_close_title: 'Auto-Close Settings'
-      auto_close_save: "Save"
+      auto_close_save: "Lưu"
       auto_close_remove: "Don't Auto-Close This Topic"
 
       progress:
