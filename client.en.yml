@@ -1,20 +1,3 @@
-# encoding: utf-8
-# This file contains content for the client portion of Discourse, sent out
-# to the Javascript app.
-#
-# To work with us on translations, see:
-# https://www.transifex.com/projects/p/discourse-org/
-#
-# This is a "source" file, which is used by Transifex to get translations for other languages.
-# After this file is changed, it needs to be pushed by a maintainer to Transifex:
-#
-#   tx push -s
-#
-# Read more here: https://meta.discourse.org/t/contribute-a-translation-to-discourse/14882
-#
-# To validate this YAML file after you change it, please paste it into
-# http://yamllint.com/
-
 en:
   js:
     number:
@@ -304,16 +287,16 @@ en:
       sent_by_you: "Sent by <a href='{{userUrl}}'>you</a>"
 
     directory:
-      filter_name: "filter by username"
-      title: "Users"
+      filter_name: "lọc theo tên đăng nhập"
+      title: "Thành viên"
       likes_given: "Given"
       likes_received: "Received"
       topics_entered: "Entered"
       topics_entered_long: "Topics Entered"
       time_read: "Time Read"
-      topic_count: "Topics"
+      topic_count: "Chủ đề"
       topic_count_long: "Topics Created"
-      post_count: "Replies"
+      post_count: "Trả lời"
       post_count_long: "Replies Posted"
       no_results: "No results were found."
       days_visited: "Visits"
@@ -357,18 +340,18 @@ en:
       "14": "Pending"
 
     categories:
-      all: "all categories"
-      all_subcategories: "all"
-      no_subcategory: "none"
-      category: "Category"
+      all: "Tất cả"
+      all_subcategories: "Tất cả"
+      no_subcategory: "không"
+      category: "Danh mục"
       reorder:
-        title: "Reorder Categories"
-        save: "Save Order"
-        apply_all: "Apply"
-      posts: "Posts"
-      topics: "Topics"
-      latest: "Latest"
-      latest_by: "latest by"
+        title: "Sắp xếp lại thứ tự các danh mục"
+        save: "Lưu"
+        apply_all: "Áp dụng"
+      posts: "Bài viết"
+      topics: "Chủ đề"
+      latest: "Mới nhất"
+      latest_by: "mới đăng bởi"
       toggle_ordering: "toggle ordering control"
       subcategories: "Subcategories"
       topic_stats: "The number of new topics."
@@ -518,53 +501,53 @@ en:
 
       email:
         title: "Email"
-        instructions: "Never shown to the public"
-        ok: "We will email you to confirm"
-        invalid: "Please enter a valid email address"
-        authenticated: "Your email has been authenticated by {{provider}}"
+        instructions: "Mục này sẽ không hiển thị công khai"
+        ok: "Chúng tôi sẽ gởi một email xác nhận cho bạn"
+        invalid: "Địa chỉ email không hợp lệ"
+        authenticated: "Email của bạn đã được xác thực bởi {{provider}}"
         frequency:
           zero: "We'll email you immediately if you haven't read the thing we're emailing you about."
           one: "We'll only email you if we haven't seen you in the last minute."
           other: "We'll only email you if we haven't seen you in the last {{count}} minutes."
 
       name:
-        title: "Name"
-        instructions: "Your full name (optional)"
-        instructions_required: "Your full name"
-        too_short: "Your name is too short"
-        ok: "Your name looks good"
+        title: "Tên hiển thị"
+        instructions: "Tên đầy đủ của bạn hoặc nickname (tùy chọn)"
+        instructions_required: "Tên đầy đủ của bạn hoặc nickname"
+        too_short: "Tên hiển thị quá ngắn"
+        ok: "OK"
       username:
-        title: "Username"
-        instructions: "Unique, no spaces, short"
-        short_instructions: "People can mention you as @{{username}}"
-        available: "Your username is available"
-        global_match: "Email matches the registered username"
-        global_mismatch: "Already registered. Try {{suggestion}}?"
-        not_available: "Not available. Try {{suggestion}}?"
-        too_short: "Your username is too short"
-        too_long: "Your username is too long"
-        checking: "Checking username availability..."
+        title: "Tên đăng nhập"
+        instructions: "Dùng để đăng nhập, ngắn gọn, không khoảng trắng."
+        short_instructions: "Mọi người có thể nhắc đến bạn bằng cách gõ @{{username}}"
+        available: "Tên đăng nhập hợp lệ"
+        global_match: "Email đã được sử dụng."
+        global_mismatch: "Đã được đăng ký. Hãy thử {{suggestion}}?"
+        not_available: "Không hợp lệ. Hãy thử {{suggestion}}?"
+        too_short: "Tên đăng nhập quá ngắn"
+        too_long: "Tên đăng nhập quá dài"
+        checking: "Đang kiểm tra..."
         enter_email: 'Username found; enter matching email'
         prefilled: "Email matches this registered username"
 
       locale:
-        title: "Interface language"
-        instructions: "User interface language. It will change when you refresh the page."
-        default: "(default)"
+        title: "Ngôn ngữ"
+        instructions: "Chọn ngôn ngữ hiển thị. Tải lại trang (F5) để cập nhật."
+        default: "(mặc định)"
 
       password_confirmation:
-        title: "Password Again"
+        title: "Nhập lại mật khẩu"
 
-      last_posted: "Last Post"
+      last_posted: "Bài viết"
       last_emailed: "Last Emailed"
-      last_seen: "Seen"
-      created: "Joined"
+      last_seen: "Thấy lần cuối"
+      created: ""
       log_out: "Đăng xuất"
       location: "Location"
       card_badge:
         title: "User Card Badge"
 
-      website: "Web Site"
+      website: "Website"
       email_settings: "Email"
       email_digests:
         title: "When I don't visit here, send an email digest of what's new:"
@@ -728,22 +711,22 @@ en:
       remove_allowed_user: "Do you really want to remove {{name}} from this message?"
 
     email: 'Email'
-    username: 'Username'
+    username: 'Tên đăng nhập'
     last_seen: 'Seen'
     created: 'Created'
     created_lowercase: 'created'
-    trust_level: 'Trust Level'
-    search_hint: 'username, email or IP address'
+    trust_level: 'Cấp độ'
+    search_hint: 'tên đăng nhập, địa chỉ email hoặc IP'
 
     create_account:
-      title: "Create New Account"
-      failed: "Something went wrong, perhaps this email is already registered, try the forgot password link"
+      title: "Tạo tài khoản"
+      failed: "Lỗi xảy ra, có thể email này đã được đăng ký, bấm vào nút quên mật khẩu để lấy lại mật khẩu cho email này."
 
     forgot_password:
-      title: "Password Reset"
-      action: "I forgot my password"
-      invite: "Enter your username or email address, and we'll send you a password reset email."
-      reset: "Reset Password"
+      title: "Khôi phục mật khẩu"
+      action: "Quên mật khẩu?"
+      invite: "Nhận tên đăng nhập hoặc địa chỉ email và chúng tôi sẽ gởi đến bạn một email để khôi phục mật khẩu."
+      reset: "Xác nhận"
       complete_username: "If an account matches the username <b>%{username}</b>, you should receive an email with instructions on how to reset your password shortly."
       complete_email: "If an account matches <b>%{email}</b>, you should receive an email with instructions on how to reset your password shortly."
       complete_username_found: "We found an account that matches the username <b>%{username}</b>, you should receive an email with instructions on how to reset your password shortly."
@@ -752,44 +735,44 @@ en:
       complete_username_not_found: "No account matches the username <b>%{username}</b>"
       complete_email_not_found: "No account matches <b>%{email}</b>"
     login:
-      title: "Log In"
-      username: "User"
-      password: "Password"
-      email_placeholder: "email or username"
-      caps_lock_warning: "Caps Lock is on"
-      error: "Unknown error"
-      rate_limit: "Please wait before trying to log in again."
-      blank_username_or_password: "Please enter your email or username, and password."
-      reset_password: 'Reset Password'
-      logging_in: "Signing In..."
-      or: "Or"
-      authenticating: "Authenticating..."
-      awaiting_confirmation: "Your account is awaiting activation, use the forgot password link to issue another activation email."
-      awaiting_approval: "Your account has not been approved by a staff member yet. You will be sent an email when it is approved."
+      title: "Đăng nhập"
+      username: "Tên đăng nhập"
+      password: "Mật khẩu"
+      email_placeholder: "địa chỉ email hoặc tên đăng nhập"
+      caps_lock_warning: "Caps Lock đang bật"
+      error: "Lỗi không xác định"
+      rate_limit: "Vui lòng chờ ít phút, sau đó đăng nhập lại."
+      blank_username_or_password: "Vui lòng nhập địa chỉ email hoặc tên đăng nhập, và mật khẩu."
+      reset_password: 'Khôi phục mật khẩu'
+      logging_in: "Đang đăng nhập..."
+      or: "hoặc"
+      authenticating: "Đang xác thực..."
+      awaiting_confirmation: "Tài khoản của bạn đang chờ kích hoạt, có thể sử dụng liên kết Quên mật khẩu để nhận một email kích hoạt khác."
+      awaiting_approval: "Tài khoản của bạn đang chờ xét duyệt. Bạn sẽ nhận được một email thông báo ngay sau khi được phê duyệt."
       requires_invite: "Sorry, access to this forum is by invite only."
-      not_activated: "You can't log in yet. We previously sent an activation email to you at <b>{{sentTo}}</b>. Please follow the instructions in that email to activate your account."
-      not_allowed_from_ip_address: "You can't login from that IP address."
-      admin_not_allowed_from_ip_address: "You can't log in as admin from that IP address."
-      resend_activation_email: "Click here to send the activation email again."
-      sent_activation_email_again: "We sent another activation email to you at <b>{{currentEmail}}</b>. It might take a few minutes for it to arrive; be sure to check your spam folder."
+      not_activated: "Hiện bạn chưa thể đăng nhập. Chúng tôi đã gởi một email kích hoạt vào địa chỉ <b>{{sentTo}}</b>. Vui lòng làm theo hướng dẫn trong email để kích hoạt tài khoản."
+      not_allowed_from_ip_address: "Bạn không thể đăng nhập từ địa chỉ IP này."
+      admin_not_allowed_from_ip_address: "Bạn không thể đăng nhập từ địa chỉ IP này."
+      resend_activation_email: "Nhấp vào đây để nhận lại email kích hoạt."
+      sent_activation_email_again: "Chúng tôi đã gởi một email kích hoạt khác vào địa chỉ <b>{{currentEmail}}</b>. Có thể mất một vài phút để bạn có thể nhận được, hoặc kiểm tra trong thư mục Spam/Junk."
       google:
-        title: "with Google"
-        message: "Authenticating with Google (make sure pop up blockers are not enabled)"
+        title: "với Google"
+        message: "Đang xác thực với Google (vui lòng không bật tính năng chặn pop up của trình duyệt)"
       google_oauth2:
-        title: "with Google"
-        message: "Authenticating with Google (make sure pop up blockers are not enabled)"
+        title: "với Google"
+        message: "Đang xác thực với Google (vui lòng không bật tính năng chặn pop up của trình duyệt)"
       twitter:
-        title: "with Twitter"
-        message: "Authenticating with Twitter (make sure pop up blockers are not enabled)"
+        title: "với Twitter"
+        message: "Đang xác thực với Twitter (vui lòng không bật tính năng chặn pop up của trình duyệt)"
       facebook:
-        title: "with Facebook"
-        message: "Authenticating with Facebook (make sure pop up blockers are not enabled)"
+        title: "với Facebook"
+        message: "Đang xác thực với Facebook (vui lòng không bật tính năng chặn pop up của trình duyệt)"
       yahoo:
-        title: "with Yahoo"
-        message: "Authenticating with Yahoo (make sure pop up blockers are not enabled)"
+        title: "với Yahoo"
+        message: "Đang xác thực với Yahoo (vui lòng không bật tính năng chặn pop up của trình duyệt)"
       github:
-        title: "with GitHub"
-        message: "Authenticating with GitHub (make sure pop up blockers are not enabled)"
+        title: "với GitHub"
+        message: "Đang xác thực với GitHub (vui lòng không bật tính năng chặn pop up của trình duyệt)"
 
     apple_international: "Apple/International"
     google: "Google"
@@ -799,68 +782,68 @@ en:
     composer:
       emoji: "Emoji :smile:"
 
-      add_warning: "This is an official warning."
-      posting_not_on_topic: "Which topic do you want to reply to?"
-      saving_draft_tip: "saving..."
-      saved_draft_tip: "saved"
-      saved_local_draft_tip: "saved locally"
-      similar_topics: "Your topic is similar to..."
-      drafts_offline: "drafts offline"
+      add_warning: "Đây là một cảnh báo chính thức."
+      posting_not_on_topic: "Bạn muốn trả lời cho chủ đề nào?"
+      saving_draft_tip: "đang lưu..."
+      saved_draft_tip: "đã lưu"
+      saved_local_draft_tip: "đã lưu"
+      similar_topics: "Chủ đề của bạn dường như đã trùng với..."
+      drafts_offline: "bản nháp không hoạt động"
 
       error:
-        title_missing: "Title is required"
-        title_too_short: "Title must be at least {{min}} characters"
-        title_too_long: "Title can't be more than {{max}} characters"
-        post_missing: "Post can't be empty"
-        post_length: "Post must be at least {{min}} characters"
-        try_like: 'Have you tried the <i class="fa fa-heart"></i> button?'
-        category_missing: "You must choose a category"
+        title_missing: "Bạn phải có một tiêu đề"
+        title_too_short: "Tiêu đề cần ít nhất {{min}} ký tự"
+        title_too_long: "Tiêu đề không thể nhiều hơn {{max}} ký tự"
+        post_missing: "Bài viết không thể rỗng"
+        post_length: "Bài viết cần ít nhất {{min}} ký tự"
+        try_like: 'Có phải bạn đang muốn nhấp vào nút thích <i class="fa fa-heart"></i>?'
+        category_missing: "Bạn phải chọn một chuyên mục"
 
-      save_edit: "Save Edit"
-      reply_original: "Reply on Original Topic"
-      reply_here: "Reply Here"
-      reply: "Reply"
-      cancel: "Cancel"
-      create_topic: "Create Topic"
-      create_pm: "Message"
-      title: "Or press Ctrl+Enter"
+      save_edit: "Lưu chỉnh sửa"
+      reply_original: "Trả lời cho chủ đề gốc"
+      reply_here: "Trả lời tại đây"
+      reply: "Trả lời"
+      cancel: "Hủy"
+      create_topic: "Tạo chủ đề"
+      create_pm: "Lời nhắn"
+      title: "hoặc bấm Ctrl+Enter"
 
       users_placeholder: "Add a user"
       title_placeholder: "What is this discussion about in one brief sentence?"
       edit_reason_placeholder: "why are you editing?"
-      show_edit_reason: "(add edit reason)"
+      show_edit_reason: "(lý do bạn chỉnh sửa?)"
       reply_placeholder: "Type here. Use Markdown, BBCode, or HTML to format. Drag or paste an image to upload it."
-      view_new_post: "View your new post."
-      saving: "Saving..."
-      saved: "Saved!"
-      saved_draft: "Post draft in progress. Select to resume."
-      uploading: "Uploading..."
-      show_preview: 'show preview &raquo;'
-      hide_preview: '&laquo; hide preview'
+      view_new_post: "Xem bài viết mới của bạn."
+      saving: "Đang lưu..."
+      saved: "Đã lưu!"
+      saved_draft: "Bài viết đang dang dở. Nhấp để tiếp tục."
+      uploading: "Đang tải lên..."
+      show_preview: 'hiện xem trước &raquo;'
+      hide_preview: '&laquo; ẩn xem trước'
 
-      quote_post_title: "Quote whole post"
-      bold_title: "Strong"
-      bold_text: "strong text"
-      italic_title: "Emphasis"
-      italic_text: "emphasized text"
-      link_title: "Hyperlink"
-      link_description: "enter link description here"
-      link_dialog_title: "Insert Hyperlink"
-      link_optional_text: "optional title"
-      quote_title: "Blockquote"
-      quote_text: "Blockquote"
+      quote_post_title: "Trích dẫn toàn bộ bài viết"
+      bold_title: "In đậm"
+      bold_text: "chữ in đậm"
+      italic_title: "In nghiêng"
+      italic_text: "chữ in nghiêng"
+      link_title: "Liên kết"
+      link_description: "nhập mô tả"
+      link_dialog_title: "Nhập liên kết"
+      link_optional_text: "Tiêu đề tùy chỉnh"
+      quote_title: "Khối trích dẫn"
+      quote_text: "Khối trích dẫn"
       code_title: "Preformatted text"
       code_text: "indent preformatted text by 4 spaces"
-      upload_title: "Upload"
-      upload_description: "enter upload description here"
+      upload_title: "Tải lên"
+      upload_description: "mô tả tải lên"
       olist_title: "Numbered List"
       ulist_title: "Bulleted List"
       list_item: "List item"
       heading_title: "Heading"
       heading_text: "Heading"
       hr_title: "Horizontal Rule"
-      undo_title: "Undo"
-      redo_title: "Redo"
+      undo_title: "Hoàn tác"
+      redo_title: "Làm lại"
       help: "Markdown Editing Help"
       toggler: "hide or show the composer panel"
 
@@ -896,46 +879,46 @@ en:
       granted_badge: "<i title='badge granted' class='fa fa-certificate'></i><p>Earned '{{description}}'</p>"
 
       alt:
-        mentioned: "Mentioned by"
-        quoted: "Quoted by"
-        replied: "Replied"
-        posted: "Post by"
-        edited: "Edit your post by"
-        liked: "Liked your post"
-        private_message: "Private message from"
-        invited_to_private_message: "Invited to a private message from"
-        invited_to_topic: "Invited to a topic from"
-        invitee_accepted: "Invite accepted by"
-        moved_post: "Your post was moved by"
+        mentioned: "Được nhắc đến bởi"
+        quoted: "Được trích dẫn bởi"
+        replied: "Đã trả lời"
+        posted: "Đăng bởi"
+        edited: "Bài viết được chỉnh sửa bởi"
+        liked: "Đã thích bài viết của bạn"
+        private_message: "Tin nhắn riêng tư từ"
+        invited_to_private_message: "Được mời vào tin nhắn riêng tư từ"
+        invited_to_topic: "Được mời vào chủ này từ"
+        invitee_accepted: "Lời mời được chấp nhận bởi"
+        moved_post: "Bài viết của bạn đã được di chuyển bởi"
         linked: "Link to your post"
         granted_badge: "Badge granted"
 
       popup:
-        mentioned: '{{username}} mentioned you in "{{topic}}" - {{site_title}}'
-        quoted: '{{username}} quoted you in "{{topic}}" - {{site_title}}'
-        replied: '{{username}} replied to you in "{{topic}}" - {{site_title}}'
-        posted: '{{username}} posted in "{{topic}}" - {{site_title}}'
-        private_message: '{{username}} sent you a private message in "{{topic}}" - {{site_title}}'
+        mentioned: '{{username}} đã nhắc đến bạn trong "{{topic}}" - {{site_title}}'
+        quoted: '{{username}} đã trích lời bạn trong "{{topic}}" - {{site_title}}'
+        replied: '{{username}} đã trả lời bạn trong "{{topic}}" - {{site_title}}'
+        posted: '{{username}} đã đăng "{{topic}}" - {{site_title}}'
+        private_message: '{{username}} đã gởi đến bạn một tin nhắn riêng tư trong "{{topic}}" - {{site_title}}'
         linked: '{{username}} linked to your post from "{{topic}}" - {{site_title}}'
 
     upload_selector:
-      title: "Add an image"
-      title_with_attachments: "Add an image or a file"
-      from_my_computer: "From my device"
-      from_the_web: "From the web"
-      remote_tip: "link to image"
-      remote_tip_with_attachments: "link to image or file ({{authorized_extensions}})"
-      local_tip: "select images from your device"
-      local_tip_with_attachments: "select images or files from your device ({{authorized_extensions}})"
-      hint: "(you can also drag & drop into the editor to upload them)"
-      hint_for_supported_browsers: "you can also drag and drop or paste images into the editor to upload them"
-      uploading: "Uploading"
-      select_file: "Select File"
-      image_link: "link your image will point to"
+      title: "Thêm ảnh"
+      title_with_attachments: "Thêm ảnh hoặc tập tin"
+      from_my_computer: "Từ máy tính"
+      from_the_web: "Từ trang web"
+      remote_tip: "liên kết dẫn đến ảnh"
+      remote_tip_with_attachments: "liên kết dẫn đến ảnh hoặc tập tin ({{authorized_extensions}})"
+      local_tip: "chọn ảnh từ thiết bị của bạn"
+      local_tip_with_attachments: "chọn ảnh hoặc tập tin từ thiết bị của bạn ({{authorized_extensions}})"
+      hint: "(bạn có thể kéo / thả vào đây để tải lên)"
+      hint_for_supported_browsers: "bạn có thể kéo / thả hoặc dán vào đây để tải lên"
+      uploading: "Đang tải lên"
+      select_file: "Chọn File"
+      image_link: "liên kết ảnh của bạn sẽ trỏ tới"
 
     search:
       title: "search topics, posts, users, or categories"
-      no_results: "No results found."
+      no_results: "Không tìm thấy."
       no_more_results: "No more results found."
       search_help: Search help
       searching: "Searching ..."
@@ -1529,16 +1512,16 @@ en:
         title: ''
         reasons:
         watching:
-          title: "Watching"
+          title: "Đang xem"
           description: "You will automatically watch all new topics in these categories. You will be notified of all new posts and topics, and a count of new replies will appear for these topics."
         tracking:
-          title: "Tracking"
+          title: "Đang theo dõi"
           description: "You will automatically track all new topics in these categories. A count of new replies will appear for these topics."
         regular:
-          title: "Regular"
+          title: "Bình thường"
           description: "You will be notified if someone mentions your @name or replies to you."
         muted:
-          title: "Muted"
+          title: "Im lặng"
           description: "You will not be notified of anything about new topics in these categories, and they will not appear on your unread tab."
 
     flagging:
@@ -1612,12 +1595,12 @@ en:
         high {with an extremely high like to post ratio}
         other {}}
     original_post: "Original Post"
-    views: "Views"
+    views: "Lượt xem"
     views_lowercase:
-      one: "view"
-      other: "views"
-    replies: "Replies"
-    views_long: "this topic has been viewed {{number}} times"
+      one: "xem"
+      other: "xem"
+    replies: "Trả lời"
+    views_long: "chủ đề này đã được xem {{number}} lần"
     activity: "Activity"
     likes: "Likes"
     likes_lowercase:
@@ -1643,10 +1626,10 @@ en:
       with_category: "%{filter} %{category} topics"
       latest:
         title:
-          zero: "Latest"
-          one: "Latest (1)"
-          other: "Latest ({{count}})"
-        help: "topics with recent posts"
+          zero: "Mới nhất"
+          one: "Mới nhất (1)"
+          other: "Mới nhất ({{count}})"
+        help: "Xem các chủ đề mới nhất"
       hot:
         title: "Hot"
         help: "a selection of the hottest topics"
@@ -1662,19 +1645,19 @@ en:
         help: "all topics grouped by category"
       unread:
         title:
-          zero: "Unread"
-          one: "Unread (1)"
-          other: "Unread ({{count}})"
+          zero: "Chưa xem"
+          one: "Chưa xem (1)"
+          other: "Chưa xem ({{count}})"
         help: "topics you are currently watching or tracking with unread posts"
         lower_title_with_count:
           zero: ""
-          one: 919b31115946cb42960c0b286e3d5fae_tr
-          other: d17f3dd2f82a108995bff08a2571e0ca_tr
+          one: ""
+          other: ""
       new:
         lower_title_with_count:
           zero: ""
-          one: 60da5065601d11130790bf316684b472_tr
-          other: 6ef788ca58c41ba2efc880c0c0df1382_tr
+          one: ""
+          other: ""
         lower_title: "new"
         title:
           zero: "New"
@@ -2540,28 +2523,28 @@ en:
           filter: "Search (URL or External URL)"
 
     lightbox:
-      download: "download"
+      download: "tải về"
 
     search_help:
-      title: 'Search Help'
+      title: 'Hỗ trợ tìm kiếm'
 
     keyboard_shortcuts_help:
-      title: 'Keyboard Shortcuts'
+      title: 'Phím tắt'
       jump_to:
-        title: 'Jump To'
-        home: '<b>g</b>, <b>h</b> Home'
-        latest: '<b>g</b>, <b>l</b> Latest'
+        title: 'Di chuyển đến'
+        home: '<b>g</b>, <b>h</b> Trang chủ'
+        latest: '<b>g</b>, <b>l</b> Mới nhất'
         new: '<b>g</b>, <b>n</b> New'
         unread: '<b>g</b>, <b>u</b> Unread'
-        categories: '<b>g</b>, <b>c</b> Categories'
+        categories: '<b>g</b>, <b>c</b> Danh mục'
         top: '<b>g</b>, <b>t</b> Top'
-        bookmarks: '<b>g</b>, <b>b</b> Bookmarks'
-        profile: '<b>g</b>, <b>p</b> Profile'
-        messages: '<b>g</b>, <b>m</b> Messages'
+        bookmarks: '<b>g</b>, <b>b</b> Bookmark'
+        profile: '<b>g</b>, <b>p</b> Hồ sơ'
+        messages: '<b>g</b>, <b>m</b> Tin nhắn'
       navigation:
-        title: 'Navigation'
-        jump: '<b>#</b> Go to post #'
-        back: '<b>u</b> Back'
+        title: 'Điều hướng'
+        jump: '<b>#</b> Đi đến bài viết #'
+        back: '<b>u</b> Trở lại'
         up_down: '<b>k</b>/<b>j</b> Move selection &uarr; &darr;'
         open: '<b>o</b> or <b>Enter</b> Open selected topic'
         next_prev: '<b>shift</b>+<b>j</b>/<b>shift</b>+<b>k</b> Next/previous section'
@@ -2602,8 +2585,8 @@ en:
       allow_title: "can be used as a title"
       multiple_grant: "can be awarded multiple times"
       badge_count:
-        one: "1 Badge"
-        other: "%{count} Badges"
+        one: "1 huy hiệu"
+        other: "%{count} huy hiệu"
       more_badges:
         one: "+1 More"
         other: "+%{count} More"
@@ -2716,7 +2699,7 @@ en:
           description: Posted an external link with at least 1000 clicks
 
     google_search: |
-      <h3>Search with Google</h3>
+      <h3>Tìm kiếm với Google</h3>
       <p>
         <form action='//google.com/search' id='google-search' onsubmit="document.getElementById('google-query').value = 'site:' + window.location.host + ' ' + document.getElementById('user-query').value; return true;">
           <input type="text" id='user-query' value="">
