@@ -1080,7 +1080,6 @@ en:
           description: "You will be notified of every new reply in this topic, and a count of new replies will be shown."
         tracking_pm:
           title: "Tracking"
-          description: "A count of new replies will be shown for this message. You will be notified if someone mentions your @name or replies to you."
           description: "A count of new replies will be shown for this message. Bạn sẽ được thông báo nếu ai đó nhắc đến bạn hoặc trả lời cho bạn bằng @tên_của_bạn."
         tracking:
           title: "Tracking"
