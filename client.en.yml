@@ -812,7 +812,7 @@ en:
       title_placeholder: "Vui lòng điền tiêu đề ngắn gọn cho chủ đề này..."
       edit_reason_placeholder: "why are you editing?"
       show_edit_reason: "(lý do bạn chỉnh sửa?)"
-      reply_placeholder: "Type here. Use Markdown, BBCode, or HTML to format. Drag or paste an image to upload it."
+      reply_placeholder: "Gõ nội dung của chủ đề này. Có thể sử dụng định dạng Markdown, BBCode, và HTML. Kéo hoặc dán ảnh vào đây để tải lên."
       view_new_post: "Xem bài viết mới của bạn."
       saving: "Đang lưu..."
       saved: "Đã lưu!"
