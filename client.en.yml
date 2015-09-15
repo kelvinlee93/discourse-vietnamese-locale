@@ -813,11 +813,17 @@ en:
       create_pm: "Lời nhắn"
       title: "hoặc bấm Ctrl+Enter"
 
-      users_placeholder: "Add a user"
+      users_placeholder: "Thêm một thành viên"
       title_placeholder: "Vui lòng điền tiêu đề ngắn gọn cho chủ đề này..."
+<<<<<<< HEAD
       edit_reason_placeholder: "why are you editing?"
       show_edit_reason: "(lý do bạn chỉnh sửa?)"
       reply_placeholder: "Gõ nội dung của chủ đề này. Có thể sử dụng định dạng Markdown, BBCode, và HTML. Kéo hoặc dán ảnh vào đây để tải lên."
+=======
+      edit_reason_placeholder: "Tại sao bạn chỉnh sửa chủ đề này?"
+      show_edit_reason: "(lý do chỉnh sửa?)"
+      reply_placeholder: "Type here. Use Markdown, BBCode, or HTML to format. Drag or paste an image to upload it."
+>>>>>>> KelvinPC
       view_new_post: "Xem bài viết mới của bạn."
       saving: "Đang lưu..."
       saved: "Đã lưu!"
