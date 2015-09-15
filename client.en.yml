@@ -94,13 +94,13 @@ en:
           one: "1 năm sau"
           other: "%{count} năm sau"
     share:
-      topic: 'share a link to this topic'
-      post: 'post #%{postNumber}'
+      topic: 'Chia sẻ chủ đề này'
+      post: '#%{postNumber}'
       close: 'đóng'
-      twitter: 'share this link on Twitter'
-      facebook: 'share this link on Facebook'
-      google+: 'share this link on Google+'
-      email: 'send this link in an email'
+      twitter: 'Chia sẻ lên Twitter'
+      facebook: 'Chia sẻ lên Facebook'
+      google+: 'Chia sẻ lên Google+'
+      email: 'Chia sẻ liên kết này vào email'
 
     action_codes:
       split_topic: "split this topic"
@@ -137,9 +137,9 @@ en:
     log_in: "Đăng nhập"
     age: "Tuổi"
     last_post: "Bài viết mới"
-    joined: "Đã gia nhập"
-    admin_title: "Admin"
-    flags_title: "Flags"
+    joined: "Tham gia"
+    admin_title: "Quản trị"
+    flags_title: "Báo xấu"
     show_more: "show more"
     show_help: "options"
     links: "Links"
@@ -159,11 +159,19 @@ en:
     read_more: 'xem thêm'
     more: "More"
     less: "Less"
+<<<<<<< HEAD
+    never: "không bao giờ"
+    daily: "hàng ngày"
+    weekly: "hàng tuần"
+    every_two_weeks: "mỗi 2 tuần"
+    every_three_days: "mỗi 3 ngày"
+=======
     never: "never"
     daily: "hàng ngày"
     weekly: "weekly"
     every_two_weeks: "every two weeks"
     every_three_days: "every three days"
+>>>>>>> master
     max_of_count: "max of {{count}}"
     alternation: "or"
     character_count:
@@ -179,9 +187,9 @@ en:
       our_admins: "Admin"
       our_moderators: "Mod"
       stat:
-        all_time: "All Time"
-        last_7_days: "Last 7 Days"
-        last_30_days: "Last 30 Days"
+        all_time: "Tất cả"
+        last_7_days: "7 ngày qua"
+        last_30_days: "30 ngày qua"
       like_count: "Lượt thích"
       topic_count: "Chủ đề"
       post_count: "Bài viết"
@@ -192,29 +200,29 @@ en:
 
     bookmarked:
       title: "Bookmark"
-      clear_bookmarks: "Clear Bookmarks"
+      clear_bookmarks: "Xóa Bookmark"
       help:
-        bookmark: "Click to bookmark the first post on this topic"
-        unbookmark: "Click to remove all bookmarks in this topic"
+        bookmark: "Nhấp để bookmark bài viết đầu tiên của chủ đề này"
+        unbookmark: "Nhấp để gỡ bỏ tất cả bookmark trong chủ đề này"
 
     bookmarks:
-      not_logged_in: "sorry, you must be logged in to bookmark posts"
-      created: "you've bookmarked this post"
-      not_bookmarked: "you've read this post; click to bookmark it"
-      last_read: "this is the last post you've read; click to bookmark it"
-      remove: "Remove Bookmark"
-      confirm_clear: "Are you sure you want to clear all the bookmarks from this topic?"
+      not_logged_in: "Xin lỗi, bạn phải đăng nhập để bookmark những bài viết này"
+      created: "Bạn đã bookmark bài viết này"
+      not_bookmarked: "bạn đã đọc bài viết này; nhấp để bookmark"
+      last_read: "đây là bài viết cuối cùng mà bạn đã đọc; nhấp để bookmark"
+      remove: "Gỡ Bookmark"
+      confirm_clear: "Bạn có chắc chắn muốn xóa tất cả bookmarks từ chủ đề này?"
 
     topic_count_latest:
-      one: "{{count}} new or updated topic."
-      other: "{{count}} new or updated topics."
+      one: "{{count}} chủ đề mới hoặc vừa cập nhật."
+      other: "{{count}} chủ đề mới hoặc vừa cập nhật."
     topic_count_unread:
-      one: "{{count}} unread topic."
-      other: "{{count}} unread topics."
+      one: "{{count}} chủ đề chưa đọc."
+      other: "{{count}} chủ đề chưa đọc."
     topic_count_new:
       one: "{{count}} chủ đề mới."
       other: "{{count}} chủ đề mới."
-    click_to_show: "Click to show."
+    click_to_show: "Nhấp để xem."
     preview: "xem trước"
     cancel: "hủy"
 
@@ -230,48 +238,48 @@ en:
     disable: "Disable"
     undo: "Undo"
     revert: "Revert"
-    failed: "Failed"
+    failed: "Thất bại"
 
-    switch_to_anon: "Anonymous Mode"
-    switch_from_anon: "Exit Anonymous Mode"
+    switch_to_anon: "Chế độ ẩn danh"
+    switch_from_anon: "Thoát chế độ ẩn danh"
 
     banner:
-      close: "Dismiss this banner."
-      edit: "Edit this banner >>"
+      close: "Loại bỏ banner này."
+      edit: "Chỉnh sửa banner này >>"
 
     choose_topic:
-      none_found: "No topics found."
+      none_found: "Không tìm thấy chủ đề nào."
       title:
-        search: "Search for a Topic by name, url or id:"
-        placeholder: "type the topic title here"
+        search: "Tìm kiếm chủ đề theo tên, url hoặc id:"
+        placeholder: "gõ chủ đề bạn cần tìm..."
 
     queue:
-      topic: "Topic:"
-      approve: 'Approve'
-      reject: 'Reject'
-      delete_user: 'Delete User'
-      title: "Needs Approval"
-      none: "There are no posts to review."
-      edit: "Edit"
-      cancel: "Cancel"
-      view_pending: "view pending posts"
+      topic: "Chủ đề:"
+      approve: 'Duyệt'
+      reject: 'Từ chối'
+      delete_user: 'Xóa thành viên'
+      title: "Cần xét duyệt"
+      none: "Không có bài viết cần xét duyệt."
+      edit: "Chỉnh sửa"
+      cancel: "Hủy"
+      view_pending: "xem bài viết chờ xử lý"
       has_pending_posts:
-        one: "This topic has <b>1</b> post awaiting approval"
-        other: "This topic has <b>{{count}}</b> posts awaiting approval"
-      confirm: "Save Changes"
-      delete_prompt: "Are you sure you want to delete <b>%{username}</b>? This will remove all of their posts and block their email and ip address."
+        one: "Chủ đề này có <b>1</b> bài đang chờ xét duyệt"
+        other: "Chủ đề này có <b>{{count}}</b> bài đang chờ xét duyệt"
+      confirm: "Lưu thay đổi"
+      delete_prompt: "Bạn có chắc chắn muốn xóa <b>%{username}</b>? Điều này sẽ xóa bỏ tất cả các bài viết, đồng thời cũng sẽ chặn địa chỉ email và IP của họ."
 
       approval:
-        title: "Post Needs Approval"
-        description: "We've received your new post but it needs to be approved by a moderator before it will appear. Please be patient."
+        title: "Bài viết cần được xét duyệt"
+        description: "Chúng tôi đã nhận được bài viết mới của bạn, nhưng nó cần phải được xét duyệt trước khi xuất hiện trên website."
         pending_posts:
-          one: "You have <strong>1</strong> post pending."
-          other: "You have <strong>{{count}}</strong> posts pending."
+          one: "Bạn có <strong>1</strong> bài đang chờ xét duyệt."
+          other: "Bạn có <strong>{{count}}</strong> bài đang chờ xét duyệt."
         ok: "OK"
 
     user_action:
-      user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> posted <a href='{{topicUrl}}'>the topic</a>"
-      you_posted_topic: "<a href='{{userUrl}}'>You</a> posted <a href='{{topicUrl}}'>the topic</a>"
+      user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> đã đăng <a href='{{topicUrl}}'>{{topic}}</a>"
+      you_posted_topic: "<a href='{{userUrl}}'>You</a> đã đăng <a href='{{topicUrl}}'>{{topic}}</a>"
       user_replied_to_post: "<a href='{{userUrl}}'>{{user}}</a> replied to <a href='{{postUrl}}'>{{post_number}}</a>"
       you_replied_to_post: "<a href='{{userUrl}}'>You</a> replied to <a href='{{postUrl}}'>{{post_number}}</a>"
       user_replied_to_topic: "<a href='{{userUrl}}'>{{user}}</a> replied to <a href='{{topicUrl}}'>the topic</a>"
@@ -281,15 +289,15 @@ en:
       user_mentioned_you: "<a href='{{user1Url}}'>{{user}}</a> mentioned <a href='{{user2Url}}'>you</a>"
       you_mentioned_user: "<a href='{{user1Url}}'>You</a> mentioned <a href='{{user2Url}}'>{{another_user}}</a>"
 
-      posted_by_user: "Posted by <a href='{{userUrl}}'>{{user}}</a>"
-      posted_by_you: "Posted by <a href='{{userUrl}}'>you</a>"
-      sent_by_user: "Sent by <a href='{{userUrl}}'>{{user}}</a>"
-      sent_by_you: "Sent by <a href='{{userUrl}}'>you</a>"
+      posted_by_user: "Đăng bởi <a href='{{userUrl}}'>{{user}}</a>"
+      posted_by_you: "Đăng bởi <a href='{{userUrl}}'>bạn</a>"
+      sent_by_user: "Gửi bởi <a href='{{userUrl}}'>{{user}}</a>"
+      sent_by_you: "Gửi bởi <a href='{{userUrl}}'>bạn</a>"
 
     directory:
       filter_name: "lọc theo tên đăng nhập"
       title: "Thành viên"
-      likes_given: "Given"
+      likes_given: ""
       likes_received: "Received"
       topics_entered: "Entered"
       topics_entered_long: "Topics Entered"
@@ -748,7 +756,7 @@ en:
       or: "hoặc"
       authenticating: "Đang xác thực..."
       awaiting_confirmation: "Tài khoản của bạn đang chờ kích hoạt, có thể sử dụng liên kết Quên mật khẩu để nhận một email kích hoạt khác."
-      awaiting_approval: "Tài khoản của bạn đang chờ xét duyệt. Bạn sẽ nhận được một email thông báo ngay sau khi được phê duyệt."
+      awaiting_approval: "Tài khoản của bạn đang chờ xét duyệt. Bạn sẽ nhận được một email thông báo ngay sau khi được xét duyệt."
       requires_invite: "Sorry, access to this forum is by invite only."
       not_activated: "Hiện bạn chưa thể đăng nhập. Chúng tôi đã gởi một email kích hoạt vào địa chỉ <b>{{sentTo}}</b>. Vui lòng làm theo hướng dẫn trong email để kích hoạt tài khoản."
       not_allowed_from_ip_address: "Bạn không thể đăng nhập từ địa chỉ IP này."
@@ -1297,9 +1305,9 @@ en:
         attachment_download_requires_login: "Sorry, you need to be logged in to download attachments."
 
       abandon:
-        confirm: "Are you sure you want to abandon your post?"
-        no_value: "No, keep"
-        yes_value: "Yes, abandon"
+        confirm: "Bạn có chắc chắn muốn bỏ bài viết này?"
+        no_value: "Không, giữ lại cho tôi"
+        yes_value: "Có, hãy loại bỏ nó"
 
       via_email: "this post arrived via email"
 
@@ -1307,26 +1315,26 @@ en:
         about: "this post is a wiki; basic users can edit it"
 
       archetypes:
-        save: 'Save Options'
+        save: 'Lưu lại'
 
       controls:
-        reply: "begin composing a reply to this post"
-        like: "like this post"
-        has_liked: "you've liked this post"
-        undo_like: "undo like"
-        edit: "edit this post"
-        edit_anonymous: "Sorry, but you need to be logged in to edit this post."
-        flag: "privately flag this post for attention or send a private notification about it"
-        delete: "delete this post"
-        undelete: "undelete this post"
-        share: "share a link to this post"
-        more: "More"
+        reply: "Trả lời bài viết này"
+        like: "Thích bài viết này"
+        has_liked: "Bạn đã thích bài viết này"
+        undo_like: "Bỏ thích bài viết này"
+        edit: "Chỉnh sửa bài viết"
+        edit_anonymous: "Xin lỗi, nhưng bạn cần phải đăng nhập để chỉnh sửa bài viết này."
+        flag: "Báo cáo vi phạm hoặc gởi thông báo cho người đăng bài viết này"
+        delete: "Xóa bài viết"
+        undelete: "Khôi phục bài viết"
+        share: "Chia sẻ bài viết"
+        more: "Thêm"
         delete_replies:
           confirm:
-            one: "Do you also want to delete the direct reply to this post?"
-            other: "Do you also want to delete the {{count}} direct replies to this post?"
-          yes_value: "Yes, delete the replies too"
-          no_value: "No, just this post"
+            one: "Bạn có muốn xóa câu trả lời trực tiếp cho bài viết này?"
+            other: "Bạn có muốn xóa {{count}} câu trả lời trực tiếp cho bài viết này?"
+          yes_value: "Có"
+          no_value: "Không, chỉ bài viết này"
         admin: "post admin actions"
         wiki: "Make Wiki"
         unwiki: "Remove Wiki"
@@ -1601,19 +1609,19 @@ en:
       other: "xem"
     replies: "Trả lời"
     views_long: "chủ đề này đã được xem {{number}} lần"
-    activity: "Activity"
-    likes: "Likes"
+    activity: "Hoạt động"
+    likes: "thích"
     likes_lowercase:
-      one: "like"
-      other: "likes"
+      one: "thích"
+      other: "thích"
     likes_long: "there are {{number}} likes in this topic"
-    users: "Users"
+    users: "Thành viên"
     users_lowercase:
-      one: "user"
-      other: "users"
-    category_title: "Category"
-    history: "History"
-    changed_by: "by {{author}}"
+      one: "thành viên"
+      other: "thành viên"
+    category_title: "Danh mục"
+    history: "Lịch sử"
+    changed_by: "bởi {{author}}"
 
     raw_email:
       title: "Raw Email"
@@ -2510,11 +2518,11 @@ en:
         title: "Permalinks"
         url: "URL"
         topic_id: "Topic ID"
-        topic_title: "Topic"
+        topic_title: "Chủ đề"
         post_id: "Post ID"
         post_title: "Post"
         category_id: "Category ID"
-        category_title: "Category"
+        category_title: "Danh mục"
         external_url: "External URL"
         delete_confirm: Are you sure you want to delete this permalink?
         form:
@@ -2704,6 +2712,6 @@ en:
         <form action='//google.com/search' id='google-search' onsubmit="document.getElementById('google-query').value = 'site:' + window.location.host + ' ' + document.getElementById('user-query').value; return true;">
           <input type="text" id='user-query' value="">
           <input type='hidden' id='google-query' name="q">
-          <button class="btn btn-primary">Tìm</button>
+          <button class="btn btn-primary">Google</button>
         </form>
       </p>
