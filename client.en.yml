@@ -140,40 +140,37 @@ en:
     joined: "Tham gia"
     admin_title: "Quản trị"
     flags_title: "Báo xấu"
-    show_more: "show more"
-    show_help: "options"
-    links: "Links"
+    show_more: "thêm"
+    show_help: "tùy chọn"
+    links: "Liên kết"
     links_lowercase:
-      one: "link"
-      other: "links"
+      one: "liên kết"
+      other: "liên kết"
     faq: "Hướng dẫn"
     guidelines: "Guidelines"
-    privacy_policy: "Privacy Policy"
-    privacy: "Privacy"
-    terms_of_service: "Terms of Service"
+    privacy_policy: "Chính sách bảo mật"
+    privacy: "Bảo mật"
+    terms_of_service: "Điều khoản dịch vụ"
     mobile_view: "Phiên bản điện thoại"
     desktop_view: "Phiên bản máy tính"
     you: "Bạn"
     or: "hoặc"
     now: "ngay bây giờ"
     read_more: 'xem thêm'
-    more: "More"
-    less: "Less"
-<<<<<<< HEAD
+    more: "Thêm"
+    less: "Ít hơn"
     never: "không bao giờ"
     daily: "hàng ngày"
     weekly: "hàng tuần"
     every_two_weeks: "mỗi 2 tuần"
     every_three_days: "mỗi 3 ngày"
-=======
     never: "never"
     daily: "hàng ngày"
-    weekly: "weekly"
-    every_two_weeks: "every two weeks"
-    every_three_days: "every three days"
->>>>>>> master
-    max_of_count: "max of {{count}}"
-    alternation: "or"
+    weekly: "hàng tuần"
+    every_two_weeks: "mỗi 2 tuần"
+    every_three_days: "mỗi 3 ngày"
+    max_of_count: "tối đa của {{count}}"
+    alternation: "hoặc"
     character_count:
       one: "{{count}} ký tự"
       other: "{{count}} ký tự"
@@ -297,55 +294,55 @@ en:
     directory:
       filter_name: "lọc theo tên đăng nhập"
       title: "Thành viên"
-      likes_given: ""
-      likes_received: "Received"
-      topics_entered: "Entered"
-      topics_entered_long: "Topics Entered"
-      time_read: "Time Read"
+      likes_given: "Đã thích"
+      likes_received: "Được thích"
+      topics_entered: "Thảo luận"
+      topics_entered_long: "Các chủ đề đã tham gia"
+      time_read: "Thời gian đọc"
       topic_count: "Chủ đề"
-      topic_count_long: "Topics Created"
+      topic_count_long: "Chủ đề đã tạo"
       post_count: "Trả lời"
-      post_count_long: "Replies Posted"
-      no_results: "No results were found."
+      post_count_long: "Các câu trả lời đã đăng"
+      no_results: "Không tìm thấy kết quả."
       days_visited: "Visits"
       days_visited_long: "Days Visited"
       posts_read: "Read"
       posts_read_long: "Posts Read"
       total_rows:
-        one: "1 user"
-        other: "%{count} users"
+        one: "1 thành viên"
+        other: "%{count} thành viên"
     groups:
-      visible: "Group is visible to all users"
+      visible: "Nhóm được hiển thị cho tất cả thành viên"
       title:
-        one: "group"
-        other: "groups"
-      members: "Members"
-      posts: "Posts"
+        one: "nhóm"
+        other: "nhóm"
+      members: "Thành viên"
+      posts: "Bài viết"
       alias_levels:
-        title: "Who can use this group as an alias?"
-        nobody: "Nobody"
-        only_admins: "Only admins"
-        mods_and_admins: "Only moderators and Admins"
-        members_mods_and_admins: "Only group members, moderators and admins"
-        everyone: "Everyone"
+        title: "Ai có thể sử dụng nhóm này?"
+        nobody: "Không một ai"
+        only_admins: "Chỉ Admin"
+        mods_and_admins: "Chỉ Admin và Mod"
+        members_mods_and_admins: "Chỉ Admin, Mod và thành viên của nhóm"
+        everyone: "Mọi người"
       trust_levels:
-        title: "Trust level automatically granted to members when they're added:"
-        none: "None"
+        title: "Cấp độ tự động tăng khi thành viên:"
+        none: "Không"
 
     user_action_groups:
-      "1": "Likes Given"
-      "2": "Likes Received"
-      "3": "Bookmarks"
-      "4": "Topics"
-      "5": "Replies"
-      "6": "Responses"
-      "7": "Mentions"
-      "9": "Quotes"
+      "1": "Đã thích"
+      "2": "Được thích"
+      "3": "Bookmark"
+      "4": "Chủ đề"
+      "5": "Trả lời"
+      "6": "Phản hồi"
+      "7": "Nhắc đến"
+      "9": "Trích dẫn"
       "10": "Starred"
-      "11": "Edits"
-      "12": "Sent Items"
+      "11": "Chỉnh sửa"
+      "12": "Đã gửi"
       "13": "Inbox"
-      "14": "Pending"
+      "14": "Chờ duyệt"
 
     categories:
       all: "Tất cả"
@@ -361,133 +358,133 @@ en:
       latest: "Mới nhất"
       latest_by: "mới đăng bởi"
       toggle_ordering: "toggle ordering control"
-      subcategories: "Subcategories"
-      topic_stats: "The number of new topics."
+      subcategories: "Danh mục con"
+      topic_stats: "Số lượng chủ đề mới."
       topic_stat_sentence:
         one: "%{count} new topic in the past %{unit}."
         other: "%{count} new topics in the past %{unit}."
       post_stats: "The number of new posts."
       post_stat_sentence:
-        one: "%{count} new post in the past %{unit}."
-        other: "%{count} new posts in the past %{unit}."
+        one: "%{count} bài viết mới trong %{unit}."
+        other: "%{count} bài viết mới trong %{unit}."
     ip_lookup:
-      title: IP Address Lookup
-      hostname: Hostname
-      location: Location
-      location_not_found: (unknown)
-      organisation: Organization
-      phone: Phone
-      other_accounts: "Other accounts with this IP address:"
-      delete_other_accounts: "Delete %{count}"
-      username: "username"
-      trust_level: "TL"
-      read_time: "read time"
-      topics_entered: "topics entered"
-      post_count: "# posts"
-      confirm_delete_other_accounts: "Are you sure you want to delete these accounts?"
+      title: "Tìm địa chỉ IP"
+      hostname: "Hostname"
+      location: "Vị trí"
+      location_not_found: "(không rõ)"
+      organisation: "Tổ chức"
+      phone: "SĐT"
+      other_accounts: "Các tài khoản khác với địa chỉ IP này:"
+      delete_other_accounts: "Xóa %{count}"
+      username: "tên đăng nhập"
+      trust_level: "Lv"
+      read_time: "thời gian đọc"
+      topics_entered: "chủ đề đã tham gia"
+      post_count: "# bài viết"
+      confirm_delete_other_accounts: "Bạn có chắc chắn muốn xóa những tài khoản này?"
 
     user_fields:
-      none: "(select an option)"
+      none: "(vui lòng chọn)"
 
     user:
       said: "{{username}}:"
-      profile: "Profile"
-      mute: "Mute"
-      edit: "Edit Preferences"
-      download_archive: "Download My Posts"
-      new_private_message: "New Message"
-      private_message: "Message"
-      private_messages: "Messages"
-      activity_stream: "Activity"
-      preferences: "Preferences"
-      expand_profile: "Expand"
-      bookmarks: "Bookmarks"
-      bio: "About me"
-      invited_by: "Invited By"
-      trust_level: "Trust Level"
-      notifications: "Notifications"
+      profile: "Thông tin"
+      mute: "Im lặng"
+      edit: "Tùy chọn"
+      download_archive: "Tải về các bài viết của tôi"
+      new_private_message: "Tin nhắn mới"
+      private_message: "Tin nhắn"
+      private_messages: "Tin nhắn"
+      activity_stream: "Hoạt động"
+      preferences: "Tùy chọn"
+      expand_profile: "Mở rộng"
+      bookmarks: "Bookmark"
+      bio: "Giới thiệu"
+      invited_by: "Được mời bởi"
+      trust_level: "Cấp độ"
+      notifications: "Thông báo"
       desktop_notifications:
-        label: "Desktop Notifications"
-        not_supported: "Notifications are not supported on this browser. Sorry."
-        perm_default: "Turn On Notifications"
-        perm_denied_btn: "Permission Denied"
-        perm_denied_expl: "You have denied permission for notifications. Use your browser to enable notifications, then click the button when done. (Desktop: The leftmost icon in the address bar. Mobile: 'Site Info'.)"
-        disable: "Disable Notifications"
-        currently_enabled: "(currently enabled)"
-        enable: "Enable Notifications"
-        currently_disabled: "(currently disabled)"
-        each_browser_note: "Note: You have to change this setting on every browser you use."
-      dismiss_notifications: "Mark all as Read"
-      dismiss_notifications_tooltip: "Mark all unread notifications as read"
-      disable_jump_reply: "Don't jump to my post after I reply"
-      dynamic_favicon: "Show new / updated topic count on browser icon"
-      edit_history_public: "Let other users view my post revisions"
-      external_links_in_new_tab: "Open all external links in a new tab"
-      enable_quoting: "Enable quote reply for highlighted text"
-      change: "change"
-      moderator: "{{user}} is a moderator"
-      admin: "{{user}} is an admin"
-      moderator_tooltip: "This user is a moderator"
-      admin_tooltip: "This user is an admin"
-      blocked_tooltip: "This user is blocked"
-      suspended_notice: "This user is suspended until {{date}}."
-      suspended_reason: "Reason: "
+        label: "Thông báo trên máy tính"
+        not_supported: "Xin lỗi, tính năng thông báo không hỗ trợ trên trình duyệt này."
+        perm_default: "Bật thông báo"
+        perm_denied_btn: "Quyền bị từ chối"
+        perm_denied_expl: "Bạn đạ bị từ chối bật thông báo. Bật thông báo cho trình duyệt của bạn và sau đó thử lại."
+        disable: "Tắt thông báo"
+        currently_enabled: "(đang bật)"
+        enable: "Bật thông báo"
+        currently_disabled: "(đang tắt)"
+        each_browser_note: "Lưu ý: Bạn cần chỉnh sửa cài đặt này trên mỗi trình duyệt mà bạn sử dụng."
+      dismiss_notifications: "Đánh dấu tất cả là đã đọc"
+      dismiss_notifications_tooltip: "Đánh dấu tất cả thông báo là đã đọc"
+      disable_jump_reply: "Không chuyển đến bài viết sau khi tôi trả lời"
+      dynamic_favicon: "Hiển thị số lượng chủ đề mới hoặc vừa cập nhật trên biểu tượng trình duyệt"
+      edit_history_public: "Cho phép xem lịch sử sửa đổi bài viết của tôi"
+      external_links_in_new_tab: "Mở tất cả liên kết ngoài bằng một thẻ mới"
+      enable_quoting: "Kích hoạt tính năng trả lời trích dẫn cho đoạn văn bản được bôi đen"
+      change: "thay đổi"
+      moderator: "{{user}} - Mod"
+      admin: "{{user}} - Admin"
+      moderator_tooltip: "Thành viên này là Mod"
+      admin_tooltip: "Thành viên này là Admin"
+      blocked_tooltip: "Thành viên này đang bị khóa"
+      suspended_notice: "Thành viên này bị tạm khóa cho đến {{date}}."
+      suspended_reason: "Lý do: "
       github_profile: "Github"
-      mailing_list_mode: "Send me an email for every new post (unless I mute the topic or category)"
-      watched_categories: "Watched"
-      watched_categories_instructions: "You will automatically watch all new topics in these categories. You will be notified of all new posts and topics, and a count of new posts will also appear next to the topic."
-      tracked_categories: "Tracked"
-      tracked_categories_instructions: "You will automatically track all new topics in these categories. A count of new posts will appear next to the topic."
-      muted_categories: "Muted"
-      muted_categories_instructions: "You will not be notified of anything about new topics in these categories, and they will not appear on your unread tab."
-      delete_account: "Delete My Account"
-      delete_account_confirm: "Are you sure you want to permanently delete your account? This action cannot be undone!"
-      deleted_yourself: "Your account has been deleted successfully."
-      delete_yourself_not_allowed: "You cannot delete your account right now. Contact an admin to do delete your account for you."
-      unread_message_count: "Messages"
-      admin_delete: "Delete"
-      users: "Users"
-      muted_users: "Muted"
-      muted_users_instructions: "Suppress all notifications from these users."
+      mailing_list_mode: "Gửi email cho tôi khi có bài viết mới"
+      watched_categories: "Đang xem"
+      watched_categories_instructions: "Bạn sẽ tự động xem tất cả các chủ đề mới trong các danh mục này."
+      tracked_categories: "Đang theo dõi"
+      tracked_categories_instructions: "Bạn sẽ tự động theo dõi tất cả các chủ đề mới trong các danh mục này."
+      muted_categories: "Đang im lặng"
+      muted_categories_instructions: "Bạn sẽ không được thông báo về các chủ đề mới trong các danh mục này."
+      delete_account: "Xóa tài khoản của tôi"
+      delete_account_confirm: "Bạn có chắc chắn muốn xóa vĩnh viễn tài khoản của bạn? Hành động này không thể được hoàn tác!"
+      deleted_yourself: "Xóa tài khoản thành công."
+      delete_yourself_not_allowed: "Bạn không thể tự xóa tài khoản của mình. Vui lòng liên hệ với quản trị viên để được hỗ trợ."
+      unread_message_count: "Tin nhắn"
+      admin_delete: "Xóa"
+      users: "Thành viên"
+      muted_users: "Im lặng"
+      muted_users_instructions: "Bỏ qua tất cả thông báo từ những thành viên này."
 
       staff_counters:
-        flags_given: "helpful flags"
-        flagged_posts: "flagged posts"
-        deleted_posts: "deleted posts"
-        suspensions: "suspensions"
-        warnings_received: "warnings"
+        flags_given: "báo cáo hữu ích"
+        flagged_posts: "bài viết bị báo cáo"
+        deleted_posts: "bài viết đã xóa"
+        suspensions: "tạm khóa"
+        warnings_received: "cảnh báo"
 
       messages:
-        all: "All"
-        mine: "Mine"
-        unread: "Unread"
+        all: "Tất cả"
+        mine: "Của tôi"
+        unread: "Chưa đọc"
 
       change_password:
-        success: "(email sent)"
-        in_progress: "(sending email)"
-        error: "(error)"
-        action: "Send Password Reset Email"
-        set_password: "Set Password"
+        success: "(email đã gửi)"
+        in_progress: "(email đang gửi)"
+        error: "(lỗi)"
+        action: "Gửi email khôi phục mật khẩu"
+        set_password: "Khôi phục mật khẩu"
 
       change_about:
-        title: "Change About Me"
-        error: "There was an error changing ths value."
+        title: "Chỉnh sửa giới thiệu"
+        error: "Lỗi xảy ra, vui lòng thử lại."
 
       change_username:
-        title: "Change Username"
-        confirm: "If you change your username, all prior quotes of your posts and @name mentions will be broken. Are you absolutely sure you want to?"
-        taken: "Sorry, that username is taken."
-        error: "There was an error changing your username."
-        invalid: "That username is invalid. It must only include numbers and letters"
+        title: "Đổi tên đăng nhập"
+        confirm: "Nếu bạn đổi tên đăng nhập, tất cả những trích dẫn và nhắc đến @tên_của_bạn trước đây sẽ không hoạt động nữa. Bạn có chắc chắn bạn muốn thực hiện điều này?"
+        taken: "Xin lỗi, tên đăng nhập này đã được sử dụng."
+        error: "Lỗi xảy ra, vui lòng thử lại."
+        invalid: "Tên đăng nhập không hợp lệ. Vui lòng chỉ sử dụng các ký tự và số"
 
       change_email:
-        title: "Change Email"
-        taken: "Sorry, that email is not available."
-        error: "There was an error changing your email. Perhaps that address is already in use?"
-        success: "We've sent an email to that address. Please follow the confirmation instructions."
+        title: "Đổi địa chỉ email"
+        taken: "Xin lỗi, địa chỉ email này đã được sử dụng."
+        error: "Lỗi xảy ra, vui lòng thử lại?"
+        success: "Chúng tôi đã gửi cho bạn một email. Bạn vui lòng làm theo các hướng dẫn trong email để xác nhận email mới."
 
       change_avatar:
-        title: "Change your profile picture"
+        title: "Đổi ảnh đại diện"
         gravatar: "<a href='//gravatar.com/emails' target='_blank'>Gravatar</a>, based on"
         gravatar_title: "Change your avatar on Gravatar's website"
         refresh_gravatar_title: "Refresh your Gravatar"
@@ -627,48 +624,48 @@ en:
           error: "There was an error uploading '{{filename}}': {{message}}"
 
       password:
-        title: "Password"
-        too_short: "Your password is too short."
-        common: "That password is too common."
-        same_as_username: "Your password is the same as your username."
-        same_as_email: "Your password is the same as your email."
-        ok: "Your password looks good."
-        instructions: "At least %{count} characters."
+        title: "Mật khẩu"
+        too_short: "Mật khẩu quá ngắn."
+        common: "Mật khẩu quá yếu."
+        same_as_username: "Mật khẩu giống tên đăng nhập quá! Vui lòng sử dụng mật khẩu khác!"
+        same_as_email: "Mật khẩu giống địa chỉ email quá! Vui lòng sử dụng mật khẩu khác!"
+        ok: "OK."
+        instructions: "Ít nhất %{count} ký tự."
 
-      associated_accounts: "Logins"
+      associated_accounts: "Đăng nhập"
       ip_address:
-        title: "Last IP Address"
+        title: "Địa chỉ IP lần cuối đăng nhập"
       registration_ip_address:
-        title: "Registration IP Address"
+        title: "Địa chỉ IP đã đăng ký"
       avatar:
-        title: "Profile Picture"
-        header_title: "profile, messages, bookmarks and preferences"
+        title: "Ảnh đại diện"
+        header_title: "thông tin tài khoản, tin nhắn, bookmark và tùy chỉnh"
       title:
-        title: "Title"
+        title: "Tiêu đề"
 
       filters:
-        all: "All"
+        all: "Tất cả"
 
       stream:
-        posted_by: "Posted by"
-        sent_by: "Sent by"
-        private_message: "message"
-        the_topic: "the topic"
+        posted_by: "Đăng bởi"
+        sent_by: "Gửi bởi"
+        private_message: "tin nhắn"
+        the_topic: "chủ đề"
 
-    loading: "Loading..."
+    loading: "Đang tải..."
     errors:
-      prev_page: "while trying to load"
+      prev_page: "trong khi cố gắng để tải"
       reasons:
-        network: "Network Error"
-        server: "Server Error"
-        forbidden: "Access Denied"
-        unknown: "Error"
+        network: "Lỗi kết nối"
+        server: "Lỗi máy chủ"
+        forbidden: "Truy cập bị chặn"
+        unknown: "Lỗi"
       desc:
-        network: "Please check your connection."
-        network_fixed: "Looks like it's back."
-        server: "Error code: {{status}}"
-        forbidden: "You're not allowed to view that."
-        unknown: "Something went wrong."
+        network: "Vui lòng kiểm tra lại kết nối Internet của bạn."
+        network_fixed: "Dường như kết nối Internet của bạn đã ổn định trở lại."
+        server: "Mã lỗi: {{status}}"
+        forbidden: "Bạn không được phép xem khu vực này."
+        unknown: "Có gì đó không đúng, bạn vui lòng thử lại!"
       buttons:
         back: "Trở lại"
         again: "Thử lại"
@@ -678,51 +675,51 @@ en:
     logout: "Bạn đã đăng xuất."
     refresh: "Tải lại trang"
     read_only_mode:
-      enabled: "Read-only mode is enabled. You can continue to browse the site but interactions may not work."
-      login_disabled: "Login is disabled while the site is in read only mode."
-    too_few_topics_notice: "Let's <a href='http://blog.discourse.org/2014/08/building-a-discourse-community/'>get this discussion started!</a> There are currently <strong>%{currentTopics} / %{requiredTopics}</strong> topics and <strong>%{currentPosts} / %{requiredPosts}</strong> posts. New visitors need some conversations to read and respond to."
+      enabled: "Chế độ read-only đang bật. Bạn có thể tiếp tục duyệt web, nhưng các tương tác có thể không hoạt động."
+      login_disabled: "Đăng nhập bị vô hiệu hóa khi các trang web ở chế độ read-only."
+    too_few_topics_notice: "Chào mừng bạn đến với chuyên trang Tư Vấn - Service Plaza!"
 
     learn_more: "tìm hiểu..."
 
-    year: 'year'
-    year_desc: 'topics created in the last 365 days'
-    month: 'month'
-    month_desc: 'topics created in the last 30 days'
-    week: 'week'
-    week_desc: 'topics created in the last 7 days'
-    day: 'day'
+    year: 'năm'
+    year_desc: 'chủ đề được tạo trong 365 ngày qua'
+    month: 'tháng'
+    month_desc: 'chủ đề được tạo trong 30 ngày qua'
+    week: 'tuần'
+    week_desc: 'chủ đề được tạo trong 7 ngày qua'
+    day: 'ngày'
 
-    first_post: First post
-    mute: Mute
-    unmute: Unmute
-    last_post: Last post
-    last_reply_lowercase: last reply
+    first_post: Bài viết đầu tiên
+    mute: Im lặng
+    unmute: Bỏ im lặng
+    last_post: Bài viết cuối
+    last_reply_lowercase: trả lời cuối
     replies_lowercase:
-      one: reply
-      other: replies
+      one: trả lời
+      other: trả lời
     summary:
-      enabled_description: "You're viewing a summary of this topic: the most interesting posts as determined by the community."
-      description: "There are <b>{{count}}</b> replies."
-      description_time: "There are <b>{{count}}</b> replies with an estimated read time of <b>{{readingTime}} minutes</b>."
-      enable: 'Summarize This Topic'
-      disable: 'Show All Posts'
+      enabled_description: "Bạn đang xem tóm tắt của chủ đề này: các bài viết hấp dẫn nhất được xác định bởi cộng đồng."
+      description: "Có <b>{{count}}</b> trả lời."
+      description_time: "Có <b>{{count}}</b> trả lời với thời gian đọc khoảng <b>{{readingTime}} phút</b>."
+      enable: 'Hiển thị tóm tắt chủ đề này'
+      disable: 'Hiển thị tất cả bài viết'
 
     deleted_filter:
-      enabled_description: "This topic contains deleted posts, which have been hidden. "
-      disabled_description: "Deleted posts in the topic are shown."
-      enable: "Hide Deleted Posts"
-      disable: "Show Deleted Posts"
+      enabled_description: "Chủ đề này chứa bài viết đã bị xóa, mà đang được ẩn. "
+      disabled_description: "Bài viết bị xóa trong chủ đề này đang được hiển thị."
+      enable: "Ẩn bài viết đã xóa"
+      disable: "Hiển thị bài viết đã xóa"
 
     private_message_info:
-      title: "Message"
-      invite: "Invite Others..."
-      remove_allowed_user: "Do you really want to remove {{name}} from this message?"
+      title: "Tin nhắn"
+      invite: "Mời thêm thành viên..."
+      remove_allowed_user: "Bạn có chắc chắn muốn gỡ bỏ {{name}} từ tin nhắn này?"
 
     email: 'Email'
     username: 'Tên đăng nhập'
-    last_seen: 'Seen'
-    created: 'Created'
-    created_lowercase: 'created'
+    last_seen: 'Thấy lần cuối'
+    created: 'Đã tạo'
+    created_lowercase: 'đã tạo'
     trust_level: 'Cấp độ'
     search_hint: 'tên đăng nhập, địa chỉ email hoặc IP'
 
@@ -735,13 +732,13 @@ en:
       action: "Quên mật khẩu?"
       invite: "Nhận tên đăng nhập hoặc địa chỉ email và chúng tôi sẽ gởi đến bạn một email để khôi phục mật khẩu."
       reset: "Xác nhận"
-      complete_username: "If an account matches the username <b>%{username}</b>, you should receive an email with instructions on how to reset your password shortly."
-      complete_email: "If an account matches <b>%{email}</b>, you should receive an email with instructions on how to reset your password shortly."
-      complete_username_found: "We found an account that matches the username <b>%{username}</b>, you should receive an email with instructions on how to reset your password shortly."
-      complete_email_found: "We found an account that matches <b>%{email}</b>, you should receive an email with instructions on how to reset your password shortly."
+      complete_username: "Nếu có tài khoản đang sử dụng tên đăng nhập <b>%{username}</b>, bạn sẽ nhận được một email khôi phục mật khẩu trong thời gian ngắn."
+      complete_email: "Nếu có tài khoản đang sử dụng địa chỉ email <b>%{email}</b>, bạn sẽ nhận được một email khôi phục mật khẩu trong thời gian ngắn."
+      complete_username_found: "Chúng tôi đã tìm thấy một tài khoản khớp với tên đăng nhập <b>%{username}</b>, bạn sẽ nhận được một email khôi phục mật khẩu trong thời gian ngắn."
+      complete_email_found: "Chúng tôi đã tìm thấy một tài khoản khớp với địa chỉ email <b>%{email}</b>, bạn sẽ nhận được một email khôi phục mật khẩu trong thời gian ngắn."
 
-      complete_username_not_found: "No account matches the username <b>%{username}</b>"
-      complete_email_not_found: "No account matches <b>%{email}</b>"
+      complete_username_not_found: "Không có tài khoản nào khớp với tên đăng nhập <b>%{username}</b> này"
+      complete_email_not_found: "Không có tài khoản nào khớp với địa chỉ email <b>%{email}</b> này"
     login:
       title: "Đăng nhập"
       username: "Tên đăng nhập"
@@ -1259,7 +1256,7 @@ en:
       reply_topic: "<i class='fa fa-mail-forward'></i> {{link}}"
       quote_reply: "quote reply"
       edit: "Editing {{link}} {{replyAvatar}} {{username}}"
-      edit_reason: "Reason: "
+      edit_reason: "Lý do: "
       post_number: "post {{number}}"
       last_edited_on: "post last edited on"
       reply_as_new_topic: "Reply as linked Topic"
@@ -1274,7 +1271,7 @@ en:
       gap:
         one: "view 1 hidden reply"
         other: "view {{count}} hidden replies"
-      more_links: "{{count}} more..."
+      more_links: "{{count}} ..."
 
       unread: "Post is unread"
       has_replies:
