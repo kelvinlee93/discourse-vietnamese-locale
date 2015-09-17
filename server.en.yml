@@ -460,11 +460,11 @@ en:
     error: "There was an error changing your email address. Perhaps the address is already in use?"
 
   activation:
-    action: "Click here to activate your account"
+    action: "Nhấp vào đây để kích hoạt tài khoản"
     already_done: "Sorry, this account confirmation link is no longer valid. Perhaps your account is already active?"
-    please_continue: "Your new account is confirmed; you will be redirected to the home page."
-    continue_button: "Continue to %{site_name}"
-    welcome_to: "Welcome to %{site_name}!"
+    please_continue: "Tài khoản mới của bạn đã được xác thực; bạn sẽ được chuyển hướng đến trang chủ trong giây lát."
+    continue_button: "Tiếp tục với %{site_name}"
+    welcome_to: "Chào mừng bạn đến với %{site_name}!"
     approval_required: "A moderator must manually approve your new account before you can access this forum. You'll get an email when your account is approved!"
     missing_session: "We can not detect if your account was created, please ensure you have cookies enabled."
   post_action_types:
@@ -1982,14 +1982,20 @@ en:
 
         (If you need to communicate with [staff members](%{base_url}/about) as a new user, just reply to this message.)
     signup:
-      subject_template: "[%{site_name}] Confirm your new account"
+      subject_template: "[%{site_name}] Xác nhận tài khoản"
       text_body_template: |
-        Welcome to %{site_name}!
+        Chào mừng bạn đến với %{site_name}!
 
-        Click the following link to confirm and activate your new account:
+        Nhấp vào liên kết sau để xác nhận và kích hoạt tài khoản:
         %{base_url}/users/activate-account/%{email_token}
 
-        If the above link is not clickable, try copying and pasting it into the address bar of your web browser.
+        Nếu liên kết ở trên không thể nhấp vào được, bạn vui lòng sao chép và dán vào thanh địa chỉ của trình duyệt web.
+
+        Nếu bạn có bất kỳ thắc mắc nào khác, xin vui lòng liên hệ tuvan@serviceplaza.vn.
+
+        ---
+        Trân trọng,
+        BQT Service Plaza
   page_not_found:
     title: "The page you requested doesn't exist or is private."
     popular_topics: "Popular"
