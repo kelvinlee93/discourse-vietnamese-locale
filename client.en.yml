@@ -10,7 +10,7 @@ en:
           units:
             byte:
               one: Byte
-              other: Bytes
+              other: Byte
             gb: GB
             kb: KB
             mb: MB
@@ -20,19 +20,19 @@ en:
         millions: "{{number}}M"
     dates:
       time: "h:mm a"
-      long_no_year: "MMM D h:mm a"
-      long_no_year_no_time: "MMM D"
+      long_no_year: "D MMM h:mm a"
+      long_no_year_no_time: "D MMM"
       full_no_year_no_time: "MMMM Do"
-      long_with_year: "MMM D, YYYY h:mm a"
-      long_with_year_no_time: "MMM D, YYYY"
+      long_with_year: "D MMM, YYYY h:mm a"
+      long_with_year_no_time: "D MMM, YYYY"
       full_with_year_no_time: "MMMM Do, YYYY"
-      long_date_with_year: "MMM D, 'YY LT"
-      long_date_without_year: "MMM D, LT"
-      long_date_with_year_without_time: "MMM D, 'YY"
-      long_date_without_year_with_linebreak: "MMM D <br/>LT"
-      long_date_with_year_with_linebreak: "MMM D, 'YY <br/>LT"
+      long_date_with_year: "D MMM, 'YY LT"
+      long_date_without_year: "D MMM, LT"
+      long_date_with_year_without_time: "D MMM, 'YY"
+      long_date_without_year_with_linebreak: "D MMM <br/>LT"
+      long_date_with_year_with_linebreak: "D MMM, 'YY <br/>LT"
       tiny:
-        half_a_minute: "< 1m"
+        half_a_minute: "< 1p"
         less_than_x_seconds:
           one: "< 1s"
           other: "< %{count}s"
@@ -40,11 +40,11 @@ en:
           one: "1s"
           other: "%{count}s"
         less_than_x_minutes:
-          one: "< 1m"
-          other: "< %{count}m"
+          one: "< 1p"
+          other: "< %{count}p"
         x_minutes:
-          one: "1m"
-          other: "%{count}m"
+          one: "1p"
+          other: "%{count}p"
         about_x_hours:
           one: "1h"
           other: "%{count}h"
@@ -60,17 +60,17 @@ en:
         almost_x_years:
           one: "1y"
           other: "%{count}y"
-        date_month: "MMM D"
+        date_month: "D MMM"
         date_year: "MMM 'YY"
       medium:
         x_minutes:
-          one: "1 min"
+          one: "1 phút"
           other: "%{count} phút"
         x_hours:
-          one: "1 hour"
+          one: "1 giờ"
           other: "%{count} giờ"
         x_days:
-          one: "1 day"
+          one: "1 ngày"
           other: "%{count} ngày"
         date_year: "MMM D, 'YY"
       medium_with_ago:
@@ -105,10 +105,10 @@ en:
     action_codes:
       split_topic: "split this topic"
       autoclosed:
-        enabled: 'closed %{when}'
+        enabled: 'đã đóng %{when}'
         disabled: 'opened %{when}'
       closed:
-        enabled: 'closed %{when}'
+        enabled: 'đã đóng %{when}'
         disabled: 'opened %{when}'
       archived:
         enabled: 'archived %{when}'
@@ -139,7 +139,7 @@ en:
     last_post: "Bài viết mới"
     joined: "Tham gia"
     admin_title: "Quản trị"
-    flags_title: "Báo xấu"
+    flags_title: "Báo cáo"
     show_more: "thêm"
     show_help: "tùy chọn"
     links: "Liên kết"
@@ -275,16 +275,16 @@ en:
         ok: "OK"
 
     user_action:
-      user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> đã đăng <a href='{{topicUrl}}'>{{topic}}</a>"
-      you_posted_topic: "<a href='{{userUrl}}'>You</a> đã đăng <a href='{{topicUrl}}'>{{topic}}</a>"
-      user_replied_to_post: "<a href='{{userUrl}}'>{{user}}</a> replied to <a href='{{postUrl}}'>{{post_number}}</a>"
-      you_replied_to_post: "<a href='{{userUrl}}'>You</a> replied to <a href='{{postUrl}}'>{{post_number}}</a>"
-      user_replied_to_topic: "<a href='{{userUrl}}'>{{user}}</a> replied to <a href='{{topicUrl}}'>the topic</a>"
-      you_replied_to_topic: "<a href='{{userUrl}}'>You</a> replied to <a href='{{topicUrl}}'>the topic</a>"
+      user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> đã đăng chủ đề <a href='{{topicUrl}}'>{{topic}}</a>"
+      you_posted_topic: "<a href='{{userUrl}}'>You</a> đã đăng chủ đề <a href='{{topicUrl}}'>{{topic}}</a>"
+      user_replied_to_post: "<a href='{{userUrl}}'>{{user}}</a> đã trả lời vào <a href='{{postUrl}}'>bài viết {{post_number}}</a>"
+      you_replied_to_post: "<a href='{{userUrl}}'>Bạn</a> đã trả lời vào <a href='{{postUrl}}'>bài viết {{post_number}}</a>"
+      user_replied_to_topic: "<a href='{{userUrl}}'>{{user}}</a> đã trả lời trong <a href='{{topicUrl}}'>chủ đề</a>"
+      you_replied_to_topic: "<a href='{{userUrl}}'>Bạn</a> đã trả lời trong <a href='{{topicUrl}}'>chủ đề</a>"
 
-      user_mentioned_user: "<a href='{{user1Url}}'>{{user}}</a> mentioned <a href='{{user2Url}}'>{{another_user}}</a>"
-      user_mentioned_you: "<a href='{{user1Url}}'>{{user}}</a> mentioned <a href='{{user2Url}}'>you</a>"
-      you_mentioned_user: "<a href='{{user1Url}}'>You</a> mentioned <a href='{{user2Url}}'>{{another_user}}</a>"
+      user_mentioned_user: "<a href='{{user1Url}}'>{{user}}</a> đã nhắc đến <a href='{{user2Url}}'>{{another_user}}</a>"
+      user_mentioned_you: "<a href='{{user1Url}}'>{{user}}</a> đã nhắc đến <a href='{{user2Url}}'>bạn</a>"
+      you_mentioned_user: "<a href='{{user1Url}}'>Bạn</a> đã nhắc đến <a href='{{user2Url}}'>{{another_user}}</a>"
 
       posted_by_user: "Đăng bởi <a href='{{userUrl}}'>{{user}}</a>"
       posted_by_you: "Đăng bởi <a href='{{userUrl}}'>bạn</a>"
@@ -304,10 +304,10 @@ en:
       post_count: "Trả lời"
       post_count_long: "Các câu trả lời đã đăng"
       no_results: "Không tìm thấy kết quả."
-      days_visited: "Visits"
-      days_visited_long: "Days Visited"
-      posts_read: "Read"
-      posts_read_long: "Posts Read"
+      days_visited: "Truy cập"
+      days_visited_long: "Lượt truy cập hàng ngày"
+      posts_read: "Đã đọc"
+      posts_read_long: "Bài viết đã đọc"
       total_rows:
         one: "1 thành viên"
         other: "%{count} thành viên"
@@ -338,10 +338,10 @@ en:
       "6": "Phản hồi"
       "7": "Nhắc đến"
       "9": "Trích dẫn"
-      "10": "Starred"
+      "10": "Đánh dấu sao"
       "11": "Chỉnh sửa"
       "12": "Đã gửi"
-      "13": "Inbox"
+      "13": "Hộp thư"
       "14": "Chờ duyệt"
 
     categories:
@@ -363,7 +363,7 @@ en:
       topic_stat_sentence:
         one: "%{count} new topic in the past %{unit}."
         other: "%{count} new topics in the past %{unit}."
-      post_stats: "The number of new posts."
+      post_stats: "Số lượng bài viết mới."
       post_stat_sentence:
         one: "%{count} bài viết mới trong %{unit}."
         other: "%{count} bài viết mới trong %{unit}."
@@ -388,7 +388,7 @@ en:
 
     user:
       said: "{{username}}:"
-      profile: "Thông tin"
+      profile: "Tài khoản"
       mute: "Im lặng"
       edit: "Tùy chọn"
       download_archive: "Tải về các bài viết của tôi"
@@ -485,24 +485,24 @@ en:
 
       change_avatar:
         title: "Đổi ảnh đại diện"
-        gravatar: "<a href='//gravatar.com/emails' target='_blank'>Gravatar</a>, based on"
-        gravatar_title: "Change your avatar on Gravatar's website"
-        refresh_gravatar_title: "Refresh your Gravatar"
-        letter_based: "System assigned profile picture"
-        uploaded_avatar: "Custom picture"
-        uploaded_avatar_empty: "Add a custom picture"
-        upload_title: "Upload your picture"
-        upload_picture: "Upload Picture"
-        image_is_not_a_square: "Warning: we've cropped your image; width and height were not equal."
-        cache_notice: "You've successfully changed your profile picture but it might take some time to appear due to browser caching."
+        gravatar: "Sử dụng <a href='//gravatar.com/emails' target='_blank'>Gravatar</a> của email"
+        gravatar_title: "Đổi ảnh đại diện trên trang web Gravatar"
+        refresh_gravatar_title: "Tải lại Gravatar"
+        letter_based: "Ảnh đại diện là ký tự đầu tiên của tên đăng nhập"
+        uploaded_avatar: "Ảnh tùy chọn"
+        uploaded_avatar_empty: "Thêm một ảnh tùy chọn"
+        upload_title: "Tải lên ảnh đại diện"
+        upload_picture: "Tải ảnh lên"
+        image_is_not_a_square: "Lưu ý: hệ thống đã tự động chỉnh sửa ảnh của bạn một tý cho phù hợp."
+        cache_notice: "Đổi ảnh đại diện thành công, nhưng có thể phải mất một lúc mới có thể cập nhật trên website do hệ thống bộ nhớ đệm."
 
       change_profile_background:
-        title: "Profile Background"
-        instructions: "Profile backgrounds will be centered and have a default width of 850px."
+        title: "Hình nền"
+        instructions: "Hình nền sẽ được tự động canh giữa và chiều dài mặc định là 850px."
 
       change_card_background:
         title: "User Card Background"
-        instructions: "Background images will be centered and have a default width of 590px."
+        instructions: "Hình nền sẽ được tự động canh giữa và chiều dài mặc định là 590px."
 
       email:
         title: "Email"
@@ -548,7 +548,7 @@ en:
       last_seen: "Thấy lần cuối"
       created: ""
       log_out: "Đăng xuất"
-      location: "Location"
+      location: "Vị trí"
       card_badge:
         title: "User Card Badge"
 
@@ -787,7 +787,7 @@ en:
     composer:
       emoji: "Emoji :smile:"
 
-      add_warning: "Đây là một cảnh báo chính thức."
+      add_warning: "Đây là một tin nhắn cảnh báo."
       posting_not_on_topic: "Bạn muốn trả lời cho chủ đề nào?"
       saving_draft_tip: "đang lưu..."
       saved_draft_tip: "đã lưu"
@@ -810,7 +810,7 @@ en:
       reply: "Trả lời"
       cancel: "Hủy"
       create_topic: "Tạo chủ đề"
-      create_pm: "Lời nhắn"
+      create_pm: "Gửi tin nhắn"
       title: "hoặc bấm Ctrl+Enter"
 
       users_placeholder: "Thêm một thành viên"
@@ -996,7 +996,7 @@ en:
       filter_to: "{{post_count}} posts in topic"
       create: 'New Topic'
       create_long: 'Tạo chủ đề mới'
-      private_message: 'Start a message'
+      private_message: 'Gửi tin nhắn'
       list: 'Topics'
       new: 'new topic'
       unread: 'unread'
